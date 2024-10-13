@@ -5,6 +5,7 @@ export interface IProps{
     icon?: ReactElement,
     handler? : ()=>void,
     height?: number, 
+    width?: string ,
     outline?:boolean,
     type?: ButtonTypeEnum
 }

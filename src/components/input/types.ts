@@ -7,7 +7,10 @@ export interface IProps {
     register: UseFormRegister<FieldValues>,
     errors: FieldErrors<FieldValues>,
     name: string,
-    type?: string 
+    type?: string ,
+    placeholder?:string,
+    validation?:Object,
+    height?: string
 
 }
 
